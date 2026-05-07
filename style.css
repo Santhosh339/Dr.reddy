@@ -48,7 +48,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 14px 22px;
+  padding: 10px 22px;
   border-bottom: 1px solid #d0dde8;
   flex-shrink: 0;
 }
@@ -71,11 +71,11 @@ body {
 }
 
 .integra-img {
-  height: 36px;
+  height: 54px;
 }
 
 .drreddy-img {
-  height: 36px;
+  height: 54px;
 }
 
 /* ==============================
@@ -190,19 +190,18 @@ body {
    DISCLAIMER BOX
 ============================== */
 .disclaimer-box {
-  margin: 0 20px 20px 20px;
-  background: #ffffff;
+  margin: 0 20px 14px 20px;
+  background: rgba(255, 255, 255, 0.75);
   border: 1px solid #b8ccd8;
   border-radius: 6px;
-  padding: 12px 16px;
+  padding: 7px 14px;
   flex-shrink: 0;
-  min-height: 56px;
 }
 
 .disclaimer-text {
-  font-size: 13px;
+  font-size: 11px;
   font-weight: 500;
-  color: #333;
+  color: #555;
 }
 
 /* ==============================
