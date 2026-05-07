@@ -56,36 +56,26 @@ body {
 .logo-integra {
   display: flex;
   align-items: center;
-  gap: 5px;
-}
-
-.integra-cross {
-  font-size: 22px;
-  color: #2a7d32;
-  font-weight: 900;
-}
-
-.integra-word {
-  font-size: 20px;
-  font-weight: 900;
-  color: #1a4d20;
-  letter-spacing: 0.5px;
 }
 
 .logo-drreddy {
   display: flex;
   align-items: center;
-  gap: 5px;
 }
 
-.drreddy-word {
-  font-size: 18px;
-  font-weight: 800;
-  color: #4a0e96;
+.header-logo {
+  height: 38px;
+  width: auto;
+  object-fit: contain;
+  display: block;
 }
 
-.drreddy-grape {
-  font-size: 24px;
+.integra-img {
+  height: 36px;
+}
+
+.drreddy-img {
+  height: 36px;
 }
 
 /* ==============================
