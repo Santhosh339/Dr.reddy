@@ -12,17 +12,16 @@
 html,
 body {
   height: 100%;
-  overflow: hidden;
 }
 
 body {
   font-family: 'Inter', sans-serif;
   background: #a8c8e8;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 /* ==============================
@@ -31,16 +30,11 @@ body {
 .mobile-container {
   width: 100%;
   max-width: 430px;
-  height: 100vh;
+  min-height: 100vh;
   margin: auto;
   background: #c8e0f4;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
-  position: fixed;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 /* ==============================
@@ -78,7 +72,7 @@ body {
 }
 
 .drreddy-img {
-  height: 80px;
+  height: 90px;
 }
 
 /* ==============================
